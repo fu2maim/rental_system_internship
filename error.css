@@ -1,0 +1,44 @@
+@charset 'UTF-8';
+/* 文字の長さに合わせる */
+.red_line{
+ display:inline-block;
+ padding: 10pt;
+ margin: 10pt auto;
+ width:  700pt;
+ font-weight: 20pt;
+ border: solid 2px red;
+ border-radius: 20pt;
+ margin-top: 50px;
+ font-size: 20px;
+ text-align: center;
+
+}
+h2{
+    font-size: 15pt;
+    color:red;
+}
+
+
+.box-txt p {
+ margin: 0; 
+ padding: 0;
+}
+.message{
+    color: red;
+}
+.button {
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: beige;
+    box-shadow: 1px 2px 2px gray;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Yu Gothic';
+}
+.button:hover{
+    box-shadow: 0 0 0 gray;
+    transform: translate(1px,2px);
+}

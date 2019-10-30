@@ -1,0 +1,122 @@
+@charset 'UTF-8';
+
+body {
+    background-color: snow;
+}
+p{
+    display: inline;
+    margin-left: 750px;
+    font-size: 1.5em;
+    border-bottom:1px solid #000;
+}
+.menu{
+    margin-left: 40px;
+}
+hr{
+    border: 0;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #fff;
+}
+a:visited{
+    color: blue;
+}
+.menu_title{
+    font-size: large;
+}
+.kasidasi,.henkyaku{
+    display: inline-block;
+    border: 2px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    width: 230px;
+    padding: 30px; 
+    font-family: 'Yu Gothic';
+    box-shadow: 2px 2px 4px gray;
+}
+.csvdl{
+    font-size: 0.8em;
+    margin-left: 550px;
+}
+.status thead, tbody {
+    display: block;
+}
+.status th{
+    background-color: rgb(180, 180, 180);
+}
+.status tbody>tr:hover{
+    /* border:1.5px solid red; */
+    background-color: rgb(235, 232, 232) !important;
+}
+.status td,th{
+    border:1px solid #000;
+    table-layout: fixed;
+}
+.status tbody{
+    overflow-y: scroll;
+    height: 350px;
+    width: 936px;
+}
+.status thead{
+    width: 920px;
+}
+.status {
+    caption-side: left;
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 0;
+    text-align: center;
+    word-break : break-all;
+    font-family: 'Yu Gothic';
+    border:1px solid #000;
+    /* width: 920px !important; */
+    table-layout: fixed;
+}
+.status caption{
+    caption-side: top;
+    text-align: left;
+}
+.button {
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: beige;
+    box-shadow: 1px 2px 2px gray;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Yu Gothic';
+}
+.button:hover{
+    box-shadow: 0 0 0 gray;
+    transform: translate(1px,2px);
+}
+
+.toggle-wrap .toggle-content,
+.toggle-wrap > input[type="radio"] {
+    display: none;
+}
+.toggle-button{
+    color: gray;
+    font-size: 22px;
+}
+.toggle-wrap > input[type="radio"]:checked ~ .toggle-button{
+    font-size: 0;
+}
+.toggle-wrap > input[type="radio"]:checked ~ .toggle-content {
+    position: relative;
+    top: -10px;
+    display: block;
+    color: royalblue;
+    font-size: 22px;
+}
+.logdl{
+    margin-left:40px;
+    font-size: 0.6em;
+}
+.logreset{
+    color:red !important;
+    margin-left:20px;
+    font-size: 0.6em;
+}

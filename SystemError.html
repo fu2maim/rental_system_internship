@@ -1,0 +1,32 @@
+<html>
+        <meta http-equiv="content-type" charset="utf-8">
+    <head>
+        <title>システムエラー画面</title>
+        <style>
+            body {
+                background-color: snow;
+            }
+        </style>
+        <h1>ソフトウェア管理システム</h1>   
+        <br>
+        <script> history.forward(); </script>
+        <link rel="stylesheet" href="./error.css">
+    </head>
+    <body>
+            <div style="position:absolute;left:100pt">
+                <div class="red_line">
+                    <p> 
+                        <h2>
+                            <b>システムエラーが発生しました。<br><br></b>
+                        </h2>
+                        ご迷惑をおかけいたしまして、大変申し訳ございません。<br>
+                        しばらく待ってから再度ご利用くださいますよう、お願い申し上げます。<br>
+                        
+                    </p>
+                </div>
+            </div>
+            <div style="position:absolute;top:450px;left:5pt">
+                <button type="button" class = "button" style="height:50px;border-radius:5px;float: left"   onclick="location.href='./status_list.php'">更新</button>
+            </div>
+    </body>
+</html>
